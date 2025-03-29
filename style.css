@@ -16,15 +16,19 @@ padding:;
 
 .column {
 float: left;
-padding: 10px;
+padding: 20px;
 }
 
 .column.left{
-width: 60%;
+width: 30%;
 }
 
 .column.middle{
-width: 40%;
+width: 50%;
+}
+
+.column.right{
+width: 20%;
 }
 
 @media screen and (max-width: 600px){
